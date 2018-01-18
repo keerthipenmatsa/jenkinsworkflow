@@ -5,6 +5,7 @@ pipeline {
       steps {
         sh 'pip --version'
         sh 'python --version'
+        sh 'pip --version'
       }
     }
   }
